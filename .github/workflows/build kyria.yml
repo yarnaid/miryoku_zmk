@@ -9,8 +9,8 @@ jobs:
     secrets: inherit
     with:
       board: '["nice_nano_v2"]'
-      alphas: '["QWERTY"]'
-      nav: '["vi"]'
-      layers: '["flip"]'
+      # alphas: '["QWERTY"]'
+      # nav: '["vi"]'
+      # layers: '["flip"]'
       shield: '["kyria_left","kyria_right"]'
       kconfig: '["CONFIG_ZMK_DISPLAY=y"]'
