@@ -1,8 +1,8 @@
 // Copyright 2021 Manna Harbour
 // https://github.com/manna-harbour/miryoku
 
-// #define XXX &none
-// #define MIRYOKU_CLIPBOARD_MAC
+#define XXX &none
+#define MIRYOKU_CLIPBOARD_MAC
 
 
 // #if !defined (MIRYOKU_LAYOUTMAPPING_KYRIA)
