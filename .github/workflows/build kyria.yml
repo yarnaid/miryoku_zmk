@@ -1,0 +1,16 @@
+# Copyright 2022 Manna Harbour
+# https://github.com/manna-harbour/miryoku
+
+name: 'Build Example kyria nice_nano_v2 nice_view'
+on: workflow_dispatch
+jobs:
+  build:
+    uses: ./.github/workflows/main.yml
+    secrets: inherit
+    with:
+      board: '["nice_nano_v2"]'
+      alphas: '["QWERTY"]'
+      nav: '["vi"]'
+      layers: '["flip"]'
+      shield: '["kyria_left","kyria_right"]'
+      kconfig: '["CONFIG_ZMK_DISPLAY=y"]'
