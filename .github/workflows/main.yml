@@ -11,6 +11,9 @@ on:
       shield:
         type: string
         default: '["default"]'
+      snippet:
+        type: string
+        default: '["studio-rpc-usb-uart"]'
       alphas:
         type: string
         default: '["default"]'
