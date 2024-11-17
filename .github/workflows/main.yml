@@ -13,7 +13,7 @@ on:
         default: '["default"]'
       snippet:
         type: string
-        default: '["studio-rpc-usb-uart"]'
+        default: '[]'
       alphas:
         type: string
         default: '["default"]'

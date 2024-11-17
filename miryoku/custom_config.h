@@ -1,6 +1,8 @@
 // Copyright 2021 Manna Harbour
 // https://github.com/manna-harbour/miryoku
 
+#include "custom_combos.keymap"
+
 #define MIRYOKU_ALPHAS_QWERTY
 #define MIRYOKU_TAP_QWERTY
 #define MIRYOKU_EXTRA_COLEMAKDH
