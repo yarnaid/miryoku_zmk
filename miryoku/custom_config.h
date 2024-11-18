@@ -3,11 +3,6 @@
 
 #include "custom_combos.keymap"
 
-#define MIRYOKU_ALPHAS_QWERTY
-#define MIRYOKU_TAP_QWERTY
-#define MIRYOKU_EXTRA_COLEMAKDH
-#define MIRYOKU_NAV_VI
-#define MIRYOKU_CLIPBOARD_MAC
 #define MIRYOKU_MAPPING_EXTENDED_THUMBS
 
 
