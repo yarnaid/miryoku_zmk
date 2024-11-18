@@ -6,10 +6,7 @@
 #include <dt-bindings/zmk/rgb.h>
 
 &led_strip {
-    // chain-length = <6>;
-
     chain-length = <31>; // Uncomment if using both per-key and underglow LEDs
-    // chain-length = <25>; // Uncomment if using only per-key LEDs.
 };
 
 
