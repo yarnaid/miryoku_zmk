@@ -41,12 +41,12 @@
 
         r-brace {
             bindings = <&none>;
-            key-positions = <34 35>;
+            key-positions = <30 31>;
         };
 
         backspace {
             bindings = <&kp BACKSPACE>;
-            key-positions = <18 19>;
+            key-positions = <18 19 20>;
         };
 
         rescape {

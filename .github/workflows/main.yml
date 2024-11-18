@@ -19,7 +19,7 @@ on:
         default: '["default"]'
       tap:
         type: string
-        default: '["default"]'  
+        default: '["default"]'
       nav:
         type: string
         default: '["default"]'
