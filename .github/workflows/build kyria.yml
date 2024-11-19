@@ -14,7 +14,7 @@ jobs:
       extra: '["COLEMAKDHK"]'
       clipboard: '["mac"]'
       shield: '["kyria_rev3_left","kyria_rev3_right","settings_reset"]'
-      branches: '["petejohanson/zmk/feat/pointers-move-scroll","zmkfirmware/zmk/main petejohanson/zmk/feat/pointers-move-scroll","petejohanson/zmk/shell/tap-command","zmkfirmware/zmk/main petejohanson/zmk/shell/tap-command"]'
+      # branches: '["petejohanson/zmk/feat/pointers-move-scroll","zmkfirmware/zmk/main petejohanson/zmk/feat/pointers-move-scroll","petejohanson/zmk/shell/tap-command","zmkfirmware/zmk/main petejohanson/zmk/shell/tap-command"]'
       kconfig: '["CONFIG_ZMK_DISPLAY=y \nCONFIG_ZMK_MOUSE=y
       \nCONFIG_ZMK_DISPLAY_STATUS_SCREEN_BUILT_IN=y \nCONFIG_SSD1306=y
       \nCONFIG_ZMK_KSCAN_DEBOUNCE_PRESS_MS=1
