@@ -11,7 +11,7 @@ jobs:
       board: '["nice_nano_v2"]'
       alphas: '["COLEMAKDHK"]'
       nav: '["vi"]'
-      extra: '["COLEMAKDHK"]'
+      extra: '["QWERTY"]'
       clipboard: '["mac"]'
       shield: '["kyria_rev3_left","kyria_rev3_right"]'
       # branches: '["zmkfirmware/zmk/main"]'
