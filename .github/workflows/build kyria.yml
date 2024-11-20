@@ -9,7 +9,7 @@ jobs:
     secrets: inherit
     with:
       board: '["nice_nano_v2"]'
-      alphas: '["QWERTY"]'
+      alphas: '["COLEMAKDHK"]'
       nav: '["vi"]'
       extra: '["COLEMAKDHK"]'
       clipboard: '["mac"]'
