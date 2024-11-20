@@ -7,7 +7,7 @@ jobs:
   build:
     uses: ./.github/workflows/main.yml
     secrets: inherit
-    with:3
+    with:
       board: '["nice_nano_v2"]'
       alphas: '["QWERTY"]'
       nav: '["vi"]'
