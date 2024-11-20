@@ -9,9 +9,9 @@ jobs:
     secrets: inherit
     with:
       board: '["nice_nano_v2"]'
-      alphas: '["COLEMAKDHK"]'
+      alphas: '["QWERTY"]'
       nav: '["vi"]'
-      extra: '["QWERTY"]'
+      extra: '["COLEMAKDHK"]'
       clipboard: '["mac"]'
       shield: '["kyria_rev3_left","kyria_rev3_right"]'
       # branches: '["zmkfirmware/zmk/main"]'
