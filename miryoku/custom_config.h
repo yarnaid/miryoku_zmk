@@ -4,6 +4,7 @@
 #include "custom_combos.keymap"
 
 #define MIRYOKU_MAPPING_EXTENDED_THUMBS
+#define MIRYOKU_KLUDGE_MOUSEKEYSPR
 
 
 

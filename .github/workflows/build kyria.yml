@@ -7,13 +7,15 @@ jobs:
   build:
     uses: ./.github/workflows/main.yml
     secrets: inherit
-    with:
+    with:3
       board: '["nice_nano_v2"]'
       alphas: '["QWERTY"]'
       nav: '["vi"]'
       extra: '["COLEMAKDHK"]'
       clipboard: '["mac"]'
       shield: '["kyria_rev3_left","kyria_rev3_right"]'
+      # branches: '["zmkfirmware/zmk/main"]'
+      branches: '["petejohanson/zmk/feat/pointers-move-scroll","zmkfirmware/zmk/main petejohanson/zmk/feat/pointers-move-scroll"]'
       # branches: '["petejohanson/zmk/feat/pointers-move-scroll","zmkfirmware/zmk/main petejohanson/zmk/feat/pointers-move-scroll","petejohanson/zmk/shell/tap-command","zmkfirmware/zmk/main petejohanson/zmk/shell/tap-command"]'
       kconfig: '["CONFIG_ZMK_DISPLAY=y \nCONFIG_ZMK_MOUSE=y \nCONFIG_ZMK_DISPLAY_STATUS_SCREEN_BUILT_IN=y \nCONFIG_SSD1306=y \nCONFIG_ZMK_KSCAN_DEBOUNCE_PRESS_MS=1 \nCONFIG_ZMK_KSCAN_DEBOUNCE_RELEASE_MS=7 \nCONFIG_ZMK_PM_SOFT_OFF=y \nCONFIG_ZMK_WIDGET_BATTERY_STATUS_SHOW_PERCENTAGE=y \nCONFIG_ZMK_SPLIT_BLE_CENTRAL_BATTERY_LEVEL_PROXY=y \nCONFIG_ZMK_SPLIT_BLE_CENTRAL_BATTERY_LEVEL_FETCHING=y nCONFIG_CUSTOM_WIDGET_LOGO_IMAGE_MIRYOKU=y\n \nCONFIG_ZMK_SLEEP=y \nCONFIG_ZMK_IDLE_SLEEP_TIMEOUT=900000 \nCONFIG_ZMK_RGB_UNDERGLOW=y \nCONFIG_WS2812_STRIP=y \nCONFIG_ZMK_STUDIO=y\n"]'
       
