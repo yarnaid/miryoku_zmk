@@ -13,7 +13,7 @@ jobs:
       nav: '["vi"]'
       extra: '["COLEMAKDHK"]'
       clipboard: '["mac"]'
-      shield: '["kyria_rev3_left","kyria_rev3_right","corne_rev2_left","corne_rev2_right"]'
+      shield: '["kyria_rev3_left","kyria_rev3_right","corne_left","corne_right"]'
       # branches: '["zmkfirmware/zmk/main"]'
       # branches: '["petejohanson/zmk/feat/pointers-move-scroll","zmkfirmware/zmk/main petejohanson/zmk/feat/pointers-move-scroll"]'
       # branches: '["petejohanson/zmk/feat/pointers-move-scroll","zmkfirmware/zmk/main petejohanson/zmk/feat/pointers-move-scroll","petejohanson/zmk/shell/tap-command","zmkfirmware/zmk/main petejohanson/zmk/shell/tap-command"]'
