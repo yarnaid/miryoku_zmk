@@ -70,33 +70,33 @@
     };
 
 
-        behaviors {
-                u-tap-hold: u-tap-hold {
-                        compatible = "zmk,behavior-hold-tap";
-                        #binding-cells = <2>;
-                        tapping-term-ms = <200>;
-                        quick-tap-ms = <0>;
-                        flavor = "tap-preferred";
-                        bindings = <&kp>, <&kp>;
-                };
-
-                i-tap-hold: i-tap-hold {
-                        compatible = "zmk,behavior-hold-tap";
-                        #binding-cells = <2>;
-                        tapping-term-ms = <200>;
-                        quick-tap-ms = <0>;
-                        flavor = "tap-preferred";
-                        bindings = <&kp>, <&kp>;
-                };
-
-                o-tap-hold: o-tap-hold {
-                        compatible = "zmk,behavior-hold-tap";
-                        #binding-cells = <2>;
-                        tapping-term-ms = <200>;
-                        quick-tap-ms = <0>;
-                        flavor = "tap-preferred";
-                        bindings = <&kp>, <&kp>;
-                };
+            behaviors {
+        u-tap-hold {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            quick-tap-ms = <0>;
+            flavor = "tap-preferred";
+            bindings = <&kp>, <&kp>;
         };
+
+        i-tap-hold {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            quick-tap-ms = <0>;
+            flavor = "tap-preferred";
+            bindings = <&kp>, <&kp>;
+        };
+
+        o-tap-hold {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            quick-tap-ms = <0>;
+            flavor = "tap-preferred";
+            bindings = <&kp>, <&kp>;
+        };
+    };
 
 };
