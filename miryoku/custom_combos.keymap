@@ -6,97 +6,97 @@
 #include <dt-bindings/zmk/rgb.h>
 
 &led_strip {
-    chain-length = <31>; // Uncomment if using both per-key and underglow LEDs
+	chain-length = <31>;// Uncomment if using both per-key and underglow LEDs
 };
 
 
 / {
-    combos {
-        compatible = "zmk,combos";
-
-        l-br {
-            bindings = <&kp LEFT_BRACKET>;
-            key-positions = <4 5>;
-        };
-
-        r-br {
-            bindings = <&kp RIGHT_BRACKET>;
-            key-positions = <6 7>;
-        };
-
-        l-par {
-            bindings = <&kp LEFT_PARENTHESIS>;
-            key-positions = <16 17>;
-        };
-
-        r-par {
-            bindings = <&kp RIGHT_PARENTHESIS>;
-            key-positions = <18 19>;
-        };
-
-        l-brace {
-            bindings = <&kp LEFT_BRACE>;
-            key-positions = <28 29>;
-        };
-
-        r-brace {
-            bindings = <&none>;
-            key-positions = <30 31>;
-        };
-
-        backspace {
-            bindings = <&kp BACKSPACE>;
-            key-positions = <18 19 20>;
-        };
-
-        rescape {
-            bindings = <&gresc>;
-            key-positions = <19 20>;
-        };
-
-        lescape {
-            bindings = <&gresc>;
-            key-positions = <16 15>;
-        };
-    };
-
-    macros {
-        doublealt: doublealt {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LALT &kp LALT>;
-            label = "DOUBLEALT";
-        };
-    };
-
-
-            behaviors {
-        u-tap-hold {
-            compatible = "zmk,behavior-hold-tap";
-            #binding-cells = <2>;
-            tapping-term-ms = <200>;
-            quick-tap-ms = <0>;
-            flavor = "tap-preferred";
-            bindings = <&kp>, <&kp>;
-        };
-
-        i-tap-hold {
-            compatible = "zmk,behavior-hold-tap";
-            #binding-cells = <2>;
-            tapping-term-ms = <200>;
-            quick-tap-ms = <0>;
-            flavor = "tap-preferred";
-            bindings = <&kp>, <&kp>;
-        };
-
-        o-tap-hold {
-            compatible = "zmk,behavior-hold-tap";
-            #binding-cells = <2>;
-            tapping-term-ms = <200>;
-            quick-tap-ms = <0>;
-            flavor = "tap-preferred";
-            bindings = <&kp>, <&kp>;
-        };
-    };
-
+	combos {
+		compatible = "zmk,combos";
+		
+		l-br {
+			bindings = <&kp LEFT_BRACKET>;
+			key-positions = <4 5>;
+		};
+		
+		r-br {
+			bindings = <&kp RIGHT_BRACKET>;
+			key-positions = <6 7>;
+		};
+		
+		l-par {
+			bindings = <&kp LEFT_PARENTHESIS>;
+			key-positions = <16 17>;
+		};
+		
+		r-par {
+			bindings = <&kp RIGHT_PARENTHESIS>;
+			key-positions = <18 19>;
+		};
+		
+		l-brace {
+			bindings = <&kp LEFT_BRACE>;
+			key-positions = <28 29>;
+		};
+		
+		r-brace {
+			bindings = <&none>;
+			key-positions = <30 31>;
+		};
+		
+		backspace {
+			bindings = <&kp BACKSPACE>;
+			key-positions = <18 19 20>;
+		};
+		
+		rescape {
+			bindings = <&gresc>;
+			key-positions = <19 20>;
+		};
+		
+		lescape {
+			bindings = <&gresc>;
+			key-positions = <16 15>;
+		};
+	};
+	
+	macros {
+		doublealt: doublealt {
+			compatible = "zmk,behavior-macro";
+			#binding-cells = <0>;
+			bindings = <&kp LALT &kp LALT>;
+			label = "DOUBLEALT";
+		};
+	};
+	
+	
+	behaviors {
+		u-tap-hold {
+			compatible = "zmk,behavior-hold-tap";
+			#binding-cells = <2>;
+			tapping-term-ms = <200>;
+			quick-tap-ms = <0>;
+			flavor = "tap-preferred";
+			bindings = <&kp>, <&kp>;
+		};
+		
+		i-tap-hold {
+			compatible = "zmk,behavior-hold-tap";
+			#binding-cells = <2>;
+			tapping-term-ms = <200>;
+			quick-tap-ms = <0>;
+			flavor = "tap-preferred";
+			bindings = <&kp>, <&kp>;
+		};
+		
+		o-tap-hold {
+			compatible = "zmk,behavior-hold-tap";
+			#binding-cells = <2>;
+			tapping-term-ms = <200>;
+			quick-tap-ms = <0>;
+			flavor = "tap-preferred";
+			bindings = <&kp>, <&kp>;
+		};
+	};
+	
 };
