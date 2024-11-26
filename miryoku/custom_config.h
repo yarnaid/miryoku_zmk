@@ -2,6 +2,7 @@
 // https://github.com/manna-harbour/miryoku
 
 #include "custom_combos.keymap"
+#include "miryoku_behaviors.h" // for U_MT and U_LT
 
 // #define MIRYOKU_MAPPING_EXTENDED_THUMBS
 #define MIRYOKU_KLUDGE_GLOBALSHIFTFUNCTIONS
@@ -12,6 +13,7 @@
 #if !defined (MIRYOKU_LAYOUTMAPPING_KYRIA)
 
 #define XXX &none
+#define KK(K) U_MT(LG(K), K)
 
 #if defined MIRYOKU_MAPPING_EXTENDED_THUMBS
 #define MIRYOKU_LAYOUTMAPPING_KYRIA(\
