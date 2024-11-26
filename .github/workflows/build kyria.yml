@@ -1,7 +1,7 @@
 # Copyright 2022 Manna Harbour
 # https://github.com/manna-harbour/miryoku
 
-name: 'Build Kyria'
+name: 'Build Kyria and Corne'
 on: push
 jobs:
   build:
@@ -13,7 +13,7 @@ jobs:
       nav: '["vi"]'
       extra: '["COLEMAKDHK"]'
       clipboard: '["mac"]'
-      shield: '["kyria_rev3_left","kyria_rev3_right"]'
+      shield: '["kyria_rev3_left","kyria_rev3_right","corne_rev2_left","corne_rev2_right"]'
       # branches: '["zmkfirmware/zmk/main"]'
       # branches: '["petejohanson/zmk/feat/pointers-move-scroll","zmkfirmware/zmk/main petejohanson/zmk/feat/pointers-move-scroll"]'
       # branches: '["petejohanson/zmk/feat/pointers-move-scroll","zmkfirmware/zmk/main petejohanson/zmk/feat/pointers-move-scroll","petejohanson/zmk/shell/tap-command","zmkfirmware/zmk/main petejohanson/zmk/shell/tap-command"]'
