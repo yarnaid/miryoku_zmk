@@ -35,7 +35,7 @@
 )\
 XXX            K00  K01  K02  K03  K04                                                                        K05  K06  K07  K08  K09  XXX  \
 &kp LCTRL      K10  K11  K12  K13  K14                                                                        K15  K16  K17  K18  K19  XXX  \
-XXX            K20  K21  K22  K23  K24  &kp LC(LA(LG(1)))  &kp LC(LA(LG(2)))          &kp LC(LA(LG(3)))  XXX  K25  K26  K27  K28  K29  XXX  \
+XXX            K20  K21  K22  K23  K24  &kp LS(LC(LA(LG(NUMBER_1))))  &kp LS(LC(LA(LG(NUMBER_2))))          &kp LS(LC(LA(LG(NUMBER_3))))  XXX  K25  K26  K27  K28  K29  XXX  \
                XXX  K32  K33  K34  XXX                                                                        XXX  K35  K36  K37  XXX
 #define MIRYOKU_KLUDGE_THUMBCOMBOS_LEFT 42 43
 #define MIRYOKU_KLUDGE_THUMBCOMBOS_RIGHT 46 47
