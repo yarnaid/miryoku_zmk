@@ -4,7 +4,6 @@
 #include "custom_combos.keymap"
 #include "miryoku_behaviors.h" // for U_MT and U_LT
 
-// #define MIRYOKU_MAPPING_EXTENDED_THUMBS
 #define MIRYOKU_KLUDGE_GLOBALSHIFTFUNCTIONS
 // #define MIRYOKU_KLUDGE_MOUSEKEYSPR
 

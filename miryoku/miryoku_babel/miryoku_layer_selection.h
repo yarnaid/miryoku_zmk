@@ -4,7 +4,6 @@
 
 #pragma once
 
-#include "../custom_babel.h"
 #include "miryoku_layer_alternatives.h"
 
 #if !defined(MIRYOKU_LAYER_BASE)
