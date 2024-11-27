@@ -270,7 +270,7 @@ jobs:
           echo "::endgroup::"
 
           echo "::group::modules"
-          for module in $modules 
+          for module in $modules
           do
             user=`echo "$module" | cut -f 1 -d '/'`
             repo=`echo "$module" | cut -f 2 -d '/'`
