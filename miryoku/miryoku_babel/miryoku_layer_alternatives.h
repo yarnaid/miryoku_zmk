@@ -2,7 +2,7 @@
 // https://github.com/manna-harbour/miryoku
 // generated -*- buffer-read-only: t -*-
 // target: zmk
-
+include "../custom_babel.h"
 #pragma once
 
 

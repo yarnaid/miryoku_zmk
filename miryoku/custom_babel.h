@@ -2,6 +2,7 @@
 // https://github.com/manna-harbour/miryoku
 
 
+#pragma once
 #define MIRYOKU_ALTERNATIVES_BASE_QWERTY \
 &kp Q,             &kp W,             &kp E,             &kp R,             &kp T,             &kp Y,             U_MT(LS(LG(LC(LA(1)))), U),             U_MT(LS(LG(LC(LA(2)))), I),             U_MT(LS(LG(LC(LA(3)))), O),             &kp P,             \
 U_MT(LGUI, A),     U_MT(LALT, S),     U_MT(LCTRL, D),    U_MT(LSHFT, F),    &kp G,             &kp H,             U_MT(LSHFT, J),    U_MT(LCTRL, K),    U_MT(LALT, L),     U_MT(LGUI, SQT),   \
