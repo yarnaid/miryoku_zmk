@@ -20,7 +20,7 @@
 &kp Q,           &kp Q,             &kp Q,             &kp Q,             &kp Q,             &kp Q,             &kp Q,             &kp Q,             &kp Q,             &kp Q,             \
 &kp Q,         &kp Q,             &kp Q,             &kp Q,             &kp Q,             &kp Q,             &kp Q,             &kp Q,             &kp Q,             &kp Q,           \
 &kp Q,         &kp Q,             &kp Q,             &kp Q,             &kp Q,             &kp Q,             &kp Q,             &kp Q,         &kp Q,           &kp Q,         \
-U_NP,              U_NP,              &kp Q,          &kp Q,           &kp Q,             &kp Q,           &kp Q,          &kp Q,           U_NP,              U_NP
+&kp Q,              &kp Q,              &kp Q,          &kp Q,           &kp Q,             &kp Q,           &kp Q,          &kp Q,           &kp Q,              &kp Q
 
 
 
