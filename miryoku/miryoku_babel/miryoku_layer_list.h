@@ -29,5 +29,6 @@ MIRYOKU_X(APP,    "App")
 #define U_NUM    7
 #define U_SYM    8
 #define U_FUN    9
+#define U_APP    10
 
 #endif
