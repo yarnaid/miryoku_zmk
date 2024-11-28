@@ -8,10 +8,10 @@
 // #define MIRYOKU_KLUDGE_MOUSEKEYSPR
 
 #define MIRYOKU_LAYER_LAUNCHER \
-LG(LS(LA(LC(Q)))),  LG(LS(LA(LC(W)))),  LG(LS(LA(LC(E)))),  LG(LS(LA(LC(R)))),  LG(LS(LA(LC(T)))),       LG(LS(LA(LC(Y)))),  LG(LS(LA(LC(U)))),  LG(LS(LA(LC(I)))),  LG(LS(LA(LC(O)))),  LG(LS(LA(LC(P)))),  \
-LG(LS(LA(LC(A)))),  LG(LS(LA(LC(S)))),  LG(LS(LA(LC(D)))),  LG(LS(LA(LC(F)))),  LG(LS(LA(LC(G)))),       LG(LS(LA(LC(H)))),  LG(LS(LA(LC(J)))),  LG(LS(LA(LC(K)))),  LG(LS(LA(LC(L)))),  LG(LS(LA(LC(SQT)))),  \
-LG(LS(LA(LC(Z)))),  LG(LS(LA(LC(X)))),  LG(LS(LA(LC(C)))),  LG(LS(LA(LC(V)))),  LG(LS(LA(LC(B)))),       LG(LS(LA(LC(N)))),  LG(LS(LA(LC(M)))),  &kp COMMA,          U_MT(RALT, DOT),    U_LT(U_BUTTON, SLASH),\
-U_NP,               U_NP,               U_LT(U_FUN, DEL),   U_LT(U_NUM, BSPC),  U_LT(U_SYM, RET),        U_LT(U_MOUSE, TAB), U_LT(U_NAV, SPACE), U_LT(U_MEDIA, ESC), U_NP,               U_NP
+LG(LS(LA(LC(Q)))),       LG(LS(LA(LC(W)))),  LG(LS(LA(LC(E)))),  LG(LS(LA(LC(R)))),  LG(LS(LA(LC(T)))),       LG(LS(LA(LC(Y)))),  LG(LS(LA(LC(U)))),  LG(LS(LA(LC(I)))),  LG(LS(LA(LC(O)))),  LG(LS(LA(LC(P)))),  \
+LG(LS(LA(LC(A)))),       LG(LS(LA(LC(S)))),  LG(LS(LA(LC(D)))),  LG(LS(LA(LC(F)))),  LG(LS(LA(LC(G)))),       LG(LS(LA(LC(H)))),  LG(LS(LA(LC(J)))),  LG(LS(LA(LC(K)))),  LG(LS(LA(LC(L)))),  LG(LS(LA(LC(SQT)))),  \
+LG(LS(LA(LC(Z)))),       LG(LS(LA(LC(X)))),  LG(LS(LA(LC(C)))),  LG(LS(LA(LC(V)))),  LG(LS(LA(LC(B)))),       LG(LS(LA(LC(N)))),  LG(LS(LA(LC(M)))),  &kp COMMA,          U_MT(RALT, DOT),    U_LT(U_BUTTON, SLASH),\
+I_LT(U_LAUNCHER, U_NP),  U_NP,               U_LT(U_FUN, DEL),   U_LT(U_NUM, BSPC),  U_LT(U_SYM, RET),        U_LT(U_MOUSE, TAB), U_LT(U_NAV, SPACE), U_LT(U_MEDIA, ESC), U_NP,               U_NP
 
 
 #if !defined (MIRYOKU_LAYOUTMAPPING_KYRIA)
@@ -64,16 +64,16 @@ MIRYOKU_X(SYM,      "Sym") \
 MIRYOKU_X(FUN,      "Fun") \
 MIRYOKU_X(LAUNCHER, "apps")
 
-#define MIRYOKU_LAYERMAPPING_LAUNCHER MIRYOKU_MAPPING
+#define MIRYOKU_LAYERMAPPING_LAUNCHER MIRYOKU_LAYOUTMAPPING_KYRIA
 
-#define U_BASE   0
-#define U_EXTRA  1
-#define U_TAP    2
-#define U_BUTTON 3
-#define U_NAV    4
-#define U_MOUSE  5
-#define U_MEDIA  6
-#define U_NUM    7
-#define U_SYM    8
-#define U_FUN    9
+#define U_BASE      0
+#define U_EXTRA     1
+#define U_TAP       2
+#define U_BUTTON    3
+#define U_NAV       4
+#define U_MOUSE     5
+#define U_MEDIA     6
+#define U_NUM       7
+#define U_SYM       8
+#define U_FUN       9
 #define U_LAUNCHER 10
