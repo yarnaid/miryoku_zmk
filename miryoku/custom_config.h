@@ -9,13 +9,14 @@
 
 
 #define XXX &none
+#define HYPER(KEY) &kp LS(LC(LA(LG(KEY))))
 
 
 
 #define MIRYOKU_ALTERNATIVES_APP \
-LS(LG(LA(LC(Q))))             LS(LG(LA(LC(W))))             LS(LG(LA(LC(E))))             LS(LG(LA(LC(R))))             LS(LG(LA(LC(T))))             LS(LG(LA(LC(Y))))             LS(LG(LA(LC(U))))             LS(LG(LA(LC(I))))             LS(LG(LA(LC(O))))             LS(LG(LA(LC(P))))             \
-LS(LG(LA(LC(A))))     LS(LG(LA(LC(S))))     LS(LG(LA(LC(D))))    LS(LG(LA(LC(F))))    LS(LG(LA(LC(G))))             LS(LG(LA(LC(H))))             LS(LG(LA(LC(J))))    LS(LG(LA(LC(K))))    LS(LG(LA(LC(L))))     LS(LG(LA(LC(SQT))))   \
-U_LT(U_BUTTON, Z), LS(LG(LA(LC(X))))     LS(LG(LA(LC(C))))             LS(LG(LA(LC(V))))             LS(LG(LA(LC(B))))             LS(LG(LA(LC(N))))             LS(LG(LA(LC(M))))             &kp COMMA,         LS(LG(LA(LC(DOT))))   U_LT(U_BUTTON, SLASH),\
+HYPER(Q),             HYPER(W),             HYPER(E),             HYPER(R),             HYPER(T),             HYPER(Y),             HYPER(U),             HYPER(I),             HYPER(O),             HYPER(P),             \
+HYPER(A),     HYPER(S),     HYPER(D),    HYPER(F),    HYPER(G),             HYPER(H),             HYPER(J),    HYPER(K),    HYPER(L),     HYPER(SQT),   \
+U_LT(U_BUTTON, Z), HYPER(X),     HYPER(C),             HYPER(V),             HYPER(B),             HYPER(N),             HYPER(M),             &kp COMMA,         HYPER(DOT),   U_LT(U_BUTTON, SLASH),\
 U_NP,              U_NP,              U_LT(U_MEDIA, ESC),U_LT(U_NAV, SPACE),U_LT(U_MOUSE, TAB),U_LT(U_SYM, RET),  U_LT(U_NUM, BSPC), U_LT(U_FUN, DEL),  U_NP,              U_NP
 
 #define U_APP    10
