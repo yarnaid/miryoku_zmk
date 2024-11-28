@@ -63,6 +63,11 @@
 			bindings = <&sl 10>;
 			key-positions = <27 28>;
 		};
+
+		capsword {
+			binding = <&caps_word>;
+			key-positions = <16 19>;
+		}
 	};
 	
 	macros {
