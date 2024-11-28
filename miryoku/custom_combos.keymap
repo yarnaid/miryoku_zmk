@@ -67,7 +67,7 @@
 		capsword {
 			binding = <&caps_word>;
 			key-positions = <16 19>;
-		}
+		};
 	};
 	
 	macros {
