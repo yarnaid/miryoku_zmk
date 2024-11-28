@@ -52,7 +52,7 @@ U_NP,              U_NP,              U_LT(U_MEDIA, ESC),U_LT(U_NAV, SPACE),U_LT
 
 // #endif
 
-#define MIRYOKU_MAPPING MIRYOKU_LAYOUTMAPPING_KYRIA
+// #define MIRYOKU_MAPPING MIRYOKU_LAYOUTMAPPING_KYRIA
 
 
 #define MIRYOKU_LAYER_LIST \
@@ -68,7 +68,7 @@ MIRYOKU_X(SYM,      "Sym") \
 MIRYOKU_X(FUN,      "Fun") \
 MIRYOKU_X(APP,      "App")
 
-#define MIRYOKU_LAYERMAPPING_LAUNCHER MIRYOKU_MAPPING
+#define MIRYOKU_LAYERMAPPING_LAUNCHER MIRYOKU_LAYOUTMAPPING_KYRIA
 
 #define U_BASE      0
 #define U_EXTRA     1
@@ -80,4 +80,4 @@ MIRYOKU_X(APP,      "App")
 #define U_NUM       7
 #define U_SYM       8
 #define U_FUN       9
-#define U_APP 10
+#define U_APP       10
