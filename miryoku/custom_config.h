@@ -7,11 +7,30 @@
 #define MIRYOKU_KLUDGE_GLOBALSHIFTFUNCTIONS
 // #define MIRYOKU_KLUDGE_MOUSEKEYSPR
 
-#define MIRYOKU_LAYER_APP \
-&kp Q,             &kp W,             &kp E,             &kp R,             &kp T,             &kp Y,             &kp U,             &kp I,             &kp O,             &kp P,             \
-U_MT(LGUI, A),     U_MT(LALT, S),     U_MT(LCTRL, D),    U_MT(LSHFT, F),    &kp G,             &kp H,             U_MT(LSHFT, J),    U_MT(LCTRL, K),    U_MT(LALT, L),     U_MT(LGUI, SQT),   \
-U_LT(U_BUTTON, Z), U_MT(RALT, X),     &kp C,             &kp V,             &kp B,             &kp N,             &kp M,             &kp COMMA,         U_MT(RALT, DOT),   U_LT(U_BUTTON, SLASH),\
-U_NP,              U_NP,              U_LT(U_MEDIA, ESC),U_LT(U_NAV, SPACE),U_LT(U_MOUSE, TAB),U_LT(U_SYM, RET),  U_LT(U_NUM, BSPC), U_LT(U_FUN, DEL),  U_NP,              U_NP
+
+
+#define XXX &none
+
+// FPS friendly tap layer
+#define MIRYOKU_LAYER_GAME \
+&kp TAB,           &kp Q,             &kp W,             &kp E,             &kp R,             &kp Y,             &kp U,             &kp I,             &kp O,             &kp P,             \
+&kp LSHFT,         &kp A,             &kp S,             &kp D,             &kp F,             &kp H,             &kp J,             &kp K,             &kp L,             &kp SQT,           \
+&kp LCTRL,         &kp Z,             &kp X,             &kp C,             &kp V,             &kp N,             &kp M,             &kp COMMA,         &kp DOT,           &kp SLASH,         \
+U_NP,              U_NP,              &kp LALT,          &kp SPC,           &mo U_GAMENUM,     &kp RET,           &kp BSPC,          &kp DEL,           U_NP,              U_NP
+
+#define MIRYOKU_LAYER_GAMENUM \
+&kp ESC,           &kp NUM_1,         &kp NUM_2,         &kp NUM_3,         &kp T,             &kp LBKT,          &kp F7,            &kp F8,            &kp F9,            &kp RBKT,         \
+&kp LSHFT,         &kp NUM_4,         &kp NUM_5,         &kp NUM_6,         &kp G,             &kp EQL,           &kp F4,            &kp F5,            &kp F6,            &kp SEMI,         \
+&kp LCTRL,         &kp NUM_7,         &kp NUM_8,         &kp NUM_9,         &kp B,             &kp BSLH,          &kp F1,            &kp F2,            &kp F3,            &kp GRAVE,        \
+U_NP,              U_NP,              &to U_BASE,        &kp SPC,           &none,             &kp MINUS,         &kp NUM_0,         &kp DOT,           U_NP,              U_NP
+
+
+
+// #define MIRYOKU_LAYER_APP \
+// &kp Q,             &kp W,             &kp E,             &kp R,             &kp T,             &kp Y,             &kp U,             &kp I,             &kp O,             &kp P,             \
+// U_MT(LGUI, A),     U_MT(LALT, S),     U_MT(LCTRL, D),    U_MT(LSHFT, F),    &kp G,             &kp H,             U_MT(LSHFT, J),    U_MT(LCTRL, K),    U_MT(LALT, L),     U_MT(LGUI, SQT),   \
+// U_LT(U_BUTTON, Z), U_MT(RALT, X),     &kp C,             &kp V,             &kp B,             &kp N,             &kp M,             &kp COMMA,         U_MT(RALT, DOT),   U_LT(U_BUTTON, SLASH),\
+// U_NP,              U_NP,              U_LT(U_MEDIA, ESC),U_LT(U_NAV, SPACE),U_LT(U_MOUSE, TAB),U_LT(U_SYM, RET),  U_LT(U_NUM, BSPC), U_LT(U_FUN, DEL),  U_NP,              U_NP
 // LG(LS(LA(LC(Q)))),       LG(LS(LA(LC(W)))),  LG(LS(LA(LC(E)))),  LG(LS(LA(LC(R)))),  LG(LS(LA(LC(T)))),       LG(LS(LA(LC(Y)))),  LG(LS(LA(LC(U)))),  LG(LS(LA(LC(I)))),  LG(LS(LA(LC(O)))),  LG(LS(LA(LC(P)))),  \
 // LG(LS(LA(LC(A)))),       LG(LS(LA(LC(S)))),  LG(LS(LA(LC(D)))),  LG(LS(LA(LC(F)))),  LG(LS(LA(LC(G)))),       LG(LS(LA(LC(H)))),  LG(LS(LA(LC(J)))),  LG(LS(LA(LC(K)))),  LG(LS(LA(LC(L)))),  LG(LS(LA(LC(SQT)))),  \
 // LG(LS(LA(LC(Z)))),       LG(LS(LA(LC(X)))),  LG(LS(LA(LC(C)))),  LG(LS(LA(LC(V)))),  LG(LS(LA(LC(B)))),       LG(LS(LA(LC(N)))),  LG(LS(LA(LC(M)))),  &kp COMMA,          U_MT(RALT, DOT),    U_LT(U_BUTTON, SLASH),\
@@ -52,7 +71,7 @@ U_NP,              U_NP,              U_LT(U_MEDIA, ESC),U_LT(U_NAV, SPACE),U_LT
 
 // #endif
 
-// #define MIRYOKU_MAPPING MIRYOKU_LAYOUTMAPPING_KYRIA
+#define MIRYOKU_MAPPING MIRYOKU_LAYOUTMAPPING_KYRIA
 
 
 #define MIRYOKU_LAYER_LIST \
@@ -66,7 +85,22 @@ MIRYOKU_X(MEDIA,    "Media") \
 MIRYOKU_X(NUM,      "Num") \
 MIRYOKU_X(SYM,      "Sym") \
 MIRYOKU_X(FUN,      "Fun") \
-MIRYOKU_X(APP,      "App")
+MIRYOKU_X(GAME,   "Game") \
+MIRYOKU_X(GAMENUM,"GNum")
+
+
+#define MIRYOKU_LAYERMAPPING_GAME( \
+     K00, K01, K02, K03, K04,      K05, K06, K07, K08, K09, \
+     K10, K11, K12, K13, K14,      K15, K16, K17, K18, K19, \
+     K20, K21, K22, K23, K24,      K25, K26, K27, K28, K29, \
+     N30, N31, K32, K33, K34,      K35, K36, K37, N38, N39 \
+) \
+XXX  K00  K01  K02  K03  K04       K05  K06  K07  K08  K09  &u_to_U_BASE \
+XXX  K10  K11  K12  K13  K14       K15  K16  K17  K18  K19  XXX \
+XXX  K20  K21  K22  K23  K24       K25  K26  K27  K28  K29  XXX \
+               K32  K33  K34       K35  K36  K37
+
+#define MIRYOKU_LAYERMAPPING_GAMENUM MIRYOKU_MAPPING
 
 #define MIRYOKU_LAYERMAPPING_LAUNCHER MIRYOKU_LAYOUTMAPPING_KYRIA
 
@@ -80,4 +114,5 @@ MIRYOKU_X(APP,      "App")
 #define U_NUM       7
 #define U_SYM       8
 #define U_FUN       9
-#define U_APP       10
+#define U_GAME       10
+#define U_GAMENUM    11
