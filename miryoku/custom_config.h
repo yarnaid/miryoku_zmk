@@ -64,6 +64,7 @@ MIRYOKU_X(SYM,      "Sym") \
 MIRYOKU_X(FUN,      "Fun") \
 MIRYOKU_X(LAUNCHER, "apps")
 
+#define MIRYOKU_LAYERMAPPING_LAUNCHER MIRYOKU_MAPPING
 
 #define U_BASE   0
 #define U_EXTRA  1
