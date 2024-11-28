@@ -16,7 +16,7 @@
 #define MIRYOKU_ALTERNATIVES_APP \
 HYPER(Q),             HYPER(W),             HYPER(E),             HYPER(R),             HYPER(T),             HYPER(Y),             HYPER(U),             HYPER(I),             HYPER(O),             HYPER(P),             \
 HYPER(A),     HYPER(S),     HYPER(D),    HYPER(F),    HYPER(G),             HYPER(H),             HYPER(J),    HYPER(K),    HYPER(L),     HYPER(SQT),   \
-U_LT(U_BUTTON, Z), HYPER(X),     HYPER(C),             HYPER(V),             HYPER(B),             HYPER(N),             HYPER(M),             &kp COMMA,         HYPER(DOT),   U_LT(U_BUTTON, SLASH),\
+HYPER(Z), HYPER(X),     HYPER(C),             HYPER(V),             HYPER(B),             HYPER(N),             HYPER(M),             HYPER(COMMA),         HYPER(DOT),   HYPER(SLASH),\
 U_NP,              U_NP,              U_LT(U_MEDIA, ESC),U_LT(U_NAV, SPACE),U_LT(U_MOUSE, TAB),U_LT(U_SYM, RET),  U_LT(U_NUM, BSPC), U_LT(U_FUN, DEL),  U_NP,              U_NP
 
 #define U_APP    10
@@ -48,7 +48,7 @@ U_NP,              U_NP,              U_LT(U_MEDIA, ESC),U_LT(U_NAV, SPACE),U_LT
 XXX            K00  K01  K02  K03  K04                                                                        K05  K06  K07  K08  K09  XXX  \
 &kp LCTRL      K10  K11  K12  K13  K14                                                                        K15  K16  K17  K18  K19  XXX  \
 XXX            K20  K21  K22  K23  K24  &kp LS(LC(LA(LG(NUMBER_1))))  &kp LS(LC(LA(LG(NUMBER_2))))          &kp LS(LC(LA(LG(NUMBER_3))))  XXX  K25  K26  K27  K28  K29  XXX  \
-               &u_lt U_APP &none  K32  K33  K34  XXX                                                                        XXX  K35  K36  K37  XXX
+               &sl U_APP  K32  K33  K34  XXX                                                                        XXX  K35  K36  K37  XXX
 #define MIRYOKU_KLUDGE_THUMBCOMBOS_LEFT 42 43
 #define MIRYOKU_KLUDGE_THUMBCOMBOS_RIGHT 46 47
 #endif
