@@ -10,13 +10,17 @@
 
 
 #define XXX &none
+#define U_NP &none // key is not present
+#define U_NA &none // present but not available for use
+#define U_NU &none // available but not used
+
 
 // FPS friendly tap layer
 #define MIRYOKU_LAYER_APP \
-&kp TAB,           &kp Q,             &kp W,             &kp E,             &kp R,             &kp Y,             &kp U,             &kp I,             &kp O,             &kp P,             \
-&kp LSHFT,         &kp A,             &kp S,             &kp D,             &kp F,             &kp H,             &kp J,             &kp K,             &kp L,             &kp SQT,           \
-&kp LCTRL,         &kp Z,             &kp X,             &kp C,             &kp V,             &kp N,             &kp M,             &kp COMMA,         &kp DOT,           &kp SLASH,         \
-U_NP,              U_NP,              &kp LALT,          &kp SPC,           &kp V,             &kp RET,           &kp BSPC,          &kp DEL,           U_NP,              U_NP
+&kp Q,           &kp Q,             &kp Q,             &kp Q,             &kp Q,             &kp Q,             &kp Q,             &kp Q,             &kp Q,             &kp Q,             \
+&kp Q,         &kp Q,             &kp Q,             &kp Q,             &kp Q,             &kp Q,             &kp Q,             &kp Q,             &kp Q,             &kp Q,           \
+&kp Q,         &kp Q,             &kp Q,             &kp Q,             &kp Q,             &kp Q,             &kp Q,             &kp Q,         &kp Q,           &kp Q,         \
+U_NP,              U_NP,              &kp Q,          &kp Q,           &kp Q,             &kp Q,           &kp Q,          &kp Q,           U_NP,              U_NP
 
 
 
