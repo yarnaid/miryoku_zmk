@@ -44,30 +44,30 @@
 			key-positions = <25 26>;
 		};
 		
-		// 	backspace {
-		// 		bindings = <&kp BACKSPACE>;
-		// 		key-positions = <18 19 20>;
-		// 	};
+		backspace {
+			bindings = <&kp BACKSPACE>;
+			key-positions = <18 19 20>;
+		};
 		
-		// 	lescape {
-		// 		bindings = <&gresc>;
-		// 		key-positions = <12 13>;
-		// 	};
+		lescape {
+			bindings = <&gresc>;
+			key-positions = <12 13>;
+		};
 		
-		// 	renter {
-		// 		bindings = <&kp ENTER>;
-		// 		key-positions = <16 15>;
-		// 	};
+		renter {
+			bindings = <&kp ENTER>;
+			key-positions = <16 15>;
+		};
 		
-		// 	applayer {
-		// 		bindings = <&sl 10>;
-		// 		key-positions = <10 13>;
-		// 	};
+		applayer {
+			bindings = <&sl 10>;
+			key-positions = <10 13>;
+		};
 		
-		// 	capsword {
-		// 		bindings = <&caps_word>;
-		// 		key-positions = <13 16>;
-		// 	};
+		capsword {
+			bindings = <&caps_word>;
+			key-positions = <13 16>;
+		};
 	};
 	
 };
