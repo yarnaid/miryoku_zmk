@@ -12,12 +12,12 @@
 
 / {
 	combos {
-		// 	compatible = "zmk,combos";
+		compatible = "zmk,combos";
 		
-		// 	l-br {
-		// 		bindings = <&kp LEFT_BRACKET>;
-		// 		key-positions = <3 4>;
-		// 	};
+		l-br {
+			bindings = <&kp LEFT_BRACKET>;
+			key-positions = <3 4>;
+		};
 		
 		// 	r-br {
 		// 		bindings = <&kp RIGHT_BRACKET>;
