@@ -56,7 +56,7 @@
 		
 		renter {
 			bindings = <&kp ENTER>;
-			key-positions = <16 15>;
+			key-positions = <16 17>;
 		};
 		
 		applayer {
