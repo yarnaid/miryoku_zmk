@@ -1,7 +1,7 @@
 # Copyright 2022 Manna Harbour
 # https://github.com/manna-harbour/miryoku
 
-name: 'Build Kyria and Corne'
+name: 'Build Sweep'
 on: push
 jobs:
   build:
