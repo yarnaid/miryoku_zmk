@@ -40,7 +40,7 @@
 		};
 		
 		r-brace {
-			bindings = <&none>;
+			bindings = <&kp RIGHT_BRACE>;
 			key-positions = <25 26>;
 		};
 		
@@ -49,12 +49,12 @@
 			key-positions = <18 19 20>;
 		};
 		
-		rescape {
+		lescape {
 			bindings = <&gresc>;
 			key-positions = <12 13>;
 		};
 		
-		lescape {
+		renter {
 			bindings = <&kp ENTER>;
 			key-positions = <16 15>;
 		};
@@ -98,6 +98,4 @@
 			flavor = "tap-preferred";
 			bindings = <&kp>, <&kp>;
 		};
-
-	
 };
